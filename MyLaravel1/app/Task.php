@@ -13,7 +13,7 @@ class Task extends Model
         'employee_id'
     ];
 
-    public function employees(){
+    public function employee(){
         return $this->belongTo(Employee::class);
     }
 }

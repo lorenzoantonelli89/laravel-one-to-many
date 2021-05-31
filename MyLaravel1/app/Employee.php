@@ -13,7 +13,7 @@ class Employee extends Model
         'ral'
     ];
 
-    public function task(){
+    public function tasks(){
         return $this->hasMany(Task::class);
     }
 }

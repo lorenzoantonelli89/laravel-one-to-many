@@ -51,8 +51,8 @@
                 </th>
             </tr>
             
-            @if (count($employee -> task) > 0)
-                @foreach ($employee -> task as $task)
+            @if (count($employee -> tasks) > 0)
+                @foreach ($employee -> tasks as $task)
                     <tr>
                         <td>
                             {{$task -> title}}
